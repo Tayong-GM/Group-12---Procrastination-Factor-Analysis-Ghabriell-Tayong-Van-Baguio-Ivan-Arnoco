@@ -14,7 +14,7 @@ The study uses two main approaches:
 ---
 ## Graphs
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 ---
 
 ## Survey Questions
@@ -97,13 +97,13 @@ for each group.
 ---
 ## Results
 
-![alt text](image.png)
+![alt text](images/image.png)
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 Most dominant procrastination factors found in the study:
 - Lack of Motivation     9/10 students  (90%)
