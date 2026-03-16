@@ -14,7 +14,7 @@ The study uses two main approaches:
 ---
 ## Graphs
 
-![alt text](image.png)
+![alt text](image-4.png)
 ---
 
 ## Survey Questions
