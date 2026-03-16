@@ -16,6 +16,18 @@ The study uses two main approaches:
 
 ![alt text](image.png)
 ---
+
+## Survey Questions
+| # | Factor | Question |
+|---|---|---|
+| 1 | Lack of Motivation | Do you delay starting tasks when you feel unmotivated? |
+| 2 | Distractions | Do distractions like your phone or social media cause you to postpone tasks? |
+| 3 | Task Difficulty | Do you procrastinate when a task seems too difficult? |
+| 4 | Poor Time Management | Do you delay tasks because you feel you still have plenty of time? |
+| 5 | Fear of Failure | Do you avoid starting tasks because you are worried you might not do them well? |
+
+---
+
 ## Dataset
 10 student responses across 5 procrastination factors. Each answer is Yes or No.
 | Factor                 | Possible Values |
@@ -28,6 +40,22 @@ The study uses two main approaches:
 Class labels:
 - Yes — Procrastinator        (7 out of 10 students)
 - No  — Not a procrastinator  (3 out of 10 students)
+
+
+| # | Timestamp | Motivation | Distractions | Difficulty | Time Mgmt | Fear | 
+|---|---|---|---|---|---|---|
+| 1 | 3/15/2026 12:41 | Yes | No  | No  | Yes | No  |
+| 2 | 3/15/2026 12:50 | Yes | Yes | Yes | Yes | No  |
+| 3 | 3/15/2026 12:51 | Yes | Yes | Yes | Yes | Yes |
+| 4 | 3/15/2026 13:24 | Yes | Yes | Yes | Yes | Yes |
+| 5 | 3/15/2026 13:59 | Yes | Yes | Yes | Yes | Yes |
+| 6 | 3/15/2026 14:06 | Yes | No  | No  | Yes | No  |
+| 7 | 3/15/2026 14:29 | Yes | Yes | No  | Yes | Yes |
+| 8 | 3/15/2026 14:42 | No  | Yes | No  | No  | No  |
+| 9 | 3/15/2026 14:54 | Yes | Yes | Yes | Yes | No  |
+| 10 | 3/15/2026 15:14 | Yes | Yes | No  | Yes | No  |
+
+
 ---
 ## How It Works
 Part 1 — Factor Analysis
@@ -44,13 +72,13 @@ with a confidence percentage.
 ---
 ## Results
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 Most dominant procrastination factors found in the study:
 - Lack of Motivation     9/10 students  (90%)
