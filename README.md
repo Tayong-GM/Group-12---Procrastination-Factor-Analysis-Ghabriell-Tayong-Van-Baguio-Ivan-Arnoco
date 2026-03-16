@@ -83,17 +83,15 @@ All probabilities are multiplied together to produce a final score
 for each group.
 
 Part 3 — Final Prediction
-Compares a new student's answers against two groups:
-- **Procrastinators** — 7 out of 10 students
-- **Non-Procrastinators** — 3 out of 10 students
+The scores are converted into percentages and the higher one
+determines the predicted class.
 
-For each group, it calculates:
-- **Prior Probability** — the base chance of belonging to that group
-- **Conditional Probability** — how likely each answer is within that group
+| Class | Probability |
+|---|---|
+| Procrastinator | 81.4% |
+| Non-Procrastinator | 18.6% |
 
-All probabilities are multiplied together to produce a final score
-for each group.
-
+**Predicted class: Procrastinator (81.4% confidence)**
 ---
 ## Results
 
