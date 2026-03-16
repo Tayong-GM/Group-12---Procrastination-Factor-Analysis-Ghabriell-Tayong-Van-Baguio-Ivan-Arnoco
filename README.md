@@ -1,8 +1,8 @@
 # Group-12---Procrastination-Factor-Analysis-Ghabriell-Tayong-Van-Baguio-Ivan-Arnoco
 
-# Procrastination Factor Analysis using Naïve Bayes
-# A study to determine the likelihood of a student procrastinating
-# based on external factors using survey data and a Naïve Bayes classifier.
+Procrastination Factor Analysis using Naïve Bayes
+A study to determine the likelihood of a student procrastinating
+based on external factors using survey data and a Naïve Bayes classifier.
 ---
 ## Overview
 This project analyzes survey responses from 10 students to identify the
