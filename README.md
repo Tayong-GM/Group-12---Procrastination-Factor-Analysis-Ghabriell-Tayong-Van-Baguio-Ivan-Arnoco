@@ -61,31 +61,64 @@ Class labels:
 Part 1 — Factor Analysis
 Counts how many students said Yes to each factor and calculates
 the probability of each factor. Sorted from most to least common.
+
+| Factor | Count | Probability |
+|---|---|---|
+| Lack of Motivation | 9/10 | 90% |
+| Poor Time Management | 9/10 | 90% |
+| Distractions | 8/10 | 80% |
+| Task Difficulty | 5/10 | 50% |
+| Fear of Failure | 4/10 | 40% |
+
 Part 2 — Naïve Bayes Classifier
-1. Calculates prior probabilities      — 70% procrastinators, 30% non-procrastinators
-2. Calculates conditional probabilities  — how likely each answer is per class
-3. Multiplies all probabilities together to get a score per class
-4. Normalizes scores into final percentages
+Compares a new student's answers against two groups:
+- **Procrastinators** — 7 out of 10 students
+- **Non-Procrastinators** — 3 out of 10 students
+
+For each group, it calculates:
+- **Prior Probability** — the base chance of belonging to that group
+- **Conditional Probability** — how likely each answer is within that group
+
+All probabilities are multiplied together to produce a final score
+for each group.
+
 Part 3 — Final Prediction
-Compares the two class scores and predicts the most likely classification
-with a confidence percentage.
+Compares a new student's answers against two groups:
+- **Procrastinators** — 7 out of 10 students
+- **Non-Procrastinators** — 3 out of 10 students
+
+For each group, it calculates:
+- **Prior Probability** — the base chance of belonging to that group
+- **Conditional Probability** — how likely each answer is within that group
+
+All probabilities are multiplied together to produce a final score
+for each group.
+
 ---
 ## Results
 
-![alt text](images/image-1.png)
+![alt text](image.png)
 
-![alt text](images/image-3.png)
+![alt text](image-1.png)
 
-![alt text](images/image-4.png)
+![alt text](image-2.png)
 
-![alt text](images/image-5.png)
+![alt text](image-3.png)
 
 Most dominant procrastination factors found in the study:
 - Lack of Motivation     9/10 students  (90%)
-- Distractions           9/10 students  (90%)
+- Distractions           8/10 students  (80%)
 - Poor Time Management   9/10 students  (90%)
 - Task Difficulty        5/10 students  (50%)
 - Fear of Failure        4/10 students  (40%)
+---
+
+## Results
+The findings show that **Lack of Motivation** and **Poor Time Management**
+are the most dominant procrastination factors, each affecting 9 out of 10
+students. The Naïve Bayes classifier predicted procrastination tendency
+with **81.4% confidence**.
+
 ---
 ## Requirements
 pip install matplotlib
